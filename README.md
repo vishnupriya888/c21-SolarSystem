@@ -1,2 +1,2 @@
-# c21-SolarSystem
- Soloar System using Sprites in JavaScript
+# p5.play-boilerplate
+Boiler plate for p5.play
