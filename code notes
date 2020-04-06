@@ -1,0 +1,26 @@
+
+##### Steps on working for Solar System using Sprites:
+
+First Step, Please make sure you include, p5.play.js in the index.html
+Then, create Sprites for each of my planets at various positions, you can do at random positions also.
+Syntax: var planetname = createSprites(x,y,width,height);
+
+Then load the image,
+Syntax, create a function preload and then load all my images,
+function preload(){
+planetimage = loadImage("path of image");
+}
+
+Then add the needed image,
+Syntax: planetname.addImage("planet1",imagename);
+
+Next Step, add collide condition on my platents and if collide happens them planet is destroyed, asjust the collide using set collider,
+Syntax,
+sun.collide(planet name);
+sun.setCollider("shape",xoff,yoff,radius.width,height);
+
+also for every certain frame update the size if my sun.
+
+Syntax: if(frameCount%10 ===0){
+sun.scale=sun.scale+0.1;
+}
